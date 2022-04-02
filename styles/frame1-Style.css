@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+
+}
+
+body {
+    background-image: radial-gradient(hsl(214, 47%, 23%), hsl(237, 49%, 15%)) ;
+}
+
+main {
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+
+.score-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 700px;
+    height: 150px;
+
+    border: 3px solid hsl(217, 16%, 45%);
+    border-radius: 15px;
+    padding: 15px 30px;
+
+}
+
+.score-container img {
+    height: 100px;
+}
+
+.score {
+    border-radius: 10px;
+
+    background-color: #FFF;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 115px;
+}
+
+.score h5 {
+    font-size: 15px;
+    letter-spacing: 3px;
+    color: hsl(229, 64%, 46%);
+}
+
+.score h2 {
+    font-size: 60px;
+    font-weight: 700;
+    color: hsl(229, 25%, 31%);
+}
+
+.jogo {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 0 80px;
+    width: 480px;
+    height: 480px;
+}
+
+.btn-escolha {
+    border-radius: 50%;
+    border: 22px solid;
+
+    width: 200px;
+    height: 200px;
+}
+
+#papel {
+    border-image: linear-gradient(to bottom, hsl(39, 89%, 49%), hsl(40, 84%, 53%));
+}
+
+.btn-escolha img {
+    height: 80px;
+}
+
+
+
+.rules {
+    border-radius: 10px;
+    border: 2px solid hsl(217, 16%, 45%);
+    color: #FFF;
+
+    font-size: 15px; 
+    padding: 10px 40px;
+    align-self: flex-end;
+    letter-spacing: 2px;
+    margin-right: 30px;
+    font-weight: 600;
+
+    background-color: transparent;
+}
