@@ -1,0 +1,8 @@
+
+:root {
+    --dark_text:hsl(229, 25%, 31%);
+    --Score_Text: hsl(229, 64%, 46%);
+     --Header_Outline: hsl(217, 16%, 45%);
+    --Radial_Gradient: hsl(214, 47%, 23%) to hsl(237, 49%, 15%);
+
+}
