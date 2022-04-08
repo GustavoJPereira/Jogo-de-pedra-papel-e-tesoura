@@ -9,7 +9,7 @@
 }
 
 body {
-    background-image: radial-gradient(at top,hsl(214, 47%, 23%), hsl(237, 49%, 15%)) ;
+    background-image: radial-gradient(at top, hsl(214, 47%, 23%), hsl(237, 49%, 15%));
 }
 
 main {
@@ -74,7 +74,7 @@ main {
     height: 480px;
 }
 
-.jogo > img {
+.jogo>img {
     position: absolute;
     z-index: -1;
 }
@@ -95,7 +95,7 @@ main {
     box-shadow: inset 0px -8px 0px hsl(230, 58%, 47%);
 }
 
-#tesoura  {
+#tesoura {
     background-image: linear-gradient(hsl(39, 89%, 49%), hsl(40, 84%, 53%));
     box-shadow: inset 0px -8px 0px rgb(199, 113, 0);
 }
@@ -126,7 +126,7 @@ main {
     border: 2px solid hsl(217, 16%, 45%);
     color: #FFF;
 
-    font-size: 15px; 
+    font-size: 15px;
     padding: 10px 40px;
     align-self: flex-end;
     letter-spacing: 2px;
@@ -149,11 +149,11 @@ main {
     z-index: -1;
 }
 
-.triangulo-container img{
-margin-top: 60px;
+.triangulo-container img {
+    margin-top: 60px;
 }
 
-.container-modal{
+.container-modal {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -162,4 +162,31 @@ margin-top: 60px;
     left: 0;
     width: 100vw;
     height: 100vh;
+}
+
+@media only screen and (max-height: 760px) {
+
+
+    .jogo {
+        width: 380px;
+        height: 380px;
+    }
+
+
+
+    .btn-escolha {
+        width: 150px;
+        height: 150px;
+    }
+
+    .btn-escolha div {
+        width: 105px;
+        height: 105px;
+    }
+
+    .btn-escolha img {
+        width: 45px;
+    }
+
+    
 }
