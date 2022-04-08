@@ -1,7 +1,12 @@
+const modal = document.querySelector('.modal')
+const rules = document.querySelector('.rules');
 
+console.log(rules)
+rules.addEventListener("click", () => {
+ modal.style.display ='flex'
+})
 
-function fechar(){
-    let modal = document.querySelector('.modal')
+function fechar() {
 
-    section.style.display = 'none';
+    modal.style.display = 'none';
 }

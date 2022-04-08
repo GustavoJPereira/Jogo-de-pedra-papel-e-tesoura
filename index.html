@@ -8,6 +8,7 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="styles/frame1-Style.css">
+  <link rel="stylesheet" href="styles/modal.css" type="text/css"/>
 
   <script src=" aaa" defer></script>
 
@@ -24,8 +25,8 @@
       </div>
     </div>
     <div class="jogo">
-      
-    <img src="images/bg-triangle.svg">
+
+      <img src="images/bg-triangle.svg">
       <button class="btn-escolha" id="papel">
         <div><img src="images/icon-paper.svg" alt="papel"></div>
       </button>
@@ -37,8 +38,24 @@
       </button>
     </div>
 
-    <button class="rules">RULES</button>
+    <button onclick="fechar()" class="rules">RULES</button>
   </main>
+
+  <div class="container-modal">
+    <div class="modal">
+      <h1>RULES</h1>
+      <span class="image-rules">
+         <img src="./images/image-rules.svg" alt="image"/>
+      </span>
+
+     
+     
+      <div onclick="fechar()" class="fechar">
+         <img src="./images/icon-close.svg" alt="image"/>
+      </div>
+     </div>
+     <script src="./javascript/modal.js"></script>  
+  </div>
 </body>
 
 </html>
