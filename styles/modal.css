@@ -9,17 +9,6 @@
 
 @import url('https://fonts.googleapis.com/css2? family= Amatic+SC & display=swap');
 
-html{
-    
-    font-family: 'Barlow Semi Condensed', sans-serif;
-}
-
-main{
-    display: flex;
-    /* margin-top:  11%; */
-    justify-content: center;
-    align-items: center;
-}
 .modal{
     background: white;
    border-radius: 10px;
